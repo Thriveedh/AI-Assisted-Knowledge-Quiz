@@ -180,7 +180,7 @@ class AIService {
 ## 5. Screenshots
 
 ### Topic Selection Screen
-![Topic Selection](https://via.placeholder.com/800x600/4F46E5/FFFFFF?text=Topic+Selection+Screen)
+![Topic Selection]!(images/screenshot1.png)
 *Interactive cards for Wellness, Technology, Science, and History topics*
 
 ### Quiz Interface
