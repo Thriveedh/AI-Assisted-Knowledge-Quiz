@@ -22,7 +22,7 @@ The application will be available at `http://localhost:5173` after running the d
 
 **Demo Features:**
 - Interactive topic selection (Wellness, Technology, Science, History)
-- AI-generated questions that are unique every time
+- AI-generated questions that are unique every time and fallback questions if ai doesn't work
 - Real-time progress tracking
 - Personalized AI feedback based on performance
 - Responsive design for all screen sizes
@@ -96,7 +96,6 @@ Make the feedback feel personal and specific to ${topic}, not generic.`;
 ```
 
 ### Key Improvements Made
-- **Higher Temperature (0.8)**: Increased creativity and variation
 - **Structured System Messages**: Better AI behavior guidance
 - **Validation Logic**: Ensures proper response format
 - **Error Handling**: Graceful fallbacks when AI fails
@@ -106,17 +105,17 @@ Make the feedback feel personal and specific to ${topic}, not generic.`;
 
 ### Component Hierarchy
 ```
-App.tsx (Main navigation & state management)
-├── TopicSelection.tsx (Landing page with topic cards)
-├── Quiz.tsx (Main quiz interface)
-│   ├── QuestionCard.tsx (Individual question display)
-│   └── LoadingSpinner.tsx (Loading states)
-└── Results.tsx (Score display & AI feedback)
+App.jsx (Main navigation & state management)
+├── TopicSelection.jsx (Landing page with topic cards)
+├── Quiz.jsx (Main quiz interface)
+│   ├── QuestionCard.jsx (Individual question display)
+│   └── LoadingSpinner.jsx (Loading states)
+└── Results.jsx (Score display & AI feedback)
 ```
 
 ### Key Files & Responsibilities
 
-#### `src/App.tsx`
+#### `src/App.jsx`
 - **Purpose**: Main application component managing global state and navigation
 - **State Management**: Controls current screen (topic-selection, quiz, results)
 - **Navigation**: Handles transitions between different app states
@@ -130,26 +129,26 @@ App.tsx (Main navigation & state management)
 - **Error Handling**: Provides fallback questions when AI fails
 - **Rate Limiting**: Manages API call frequency and costs
 
-#### `src/components/Quiz.tsx`
+#### `src/components/Quiz.jsx`
 - **Purpose**: Main quiz interface managing question flow
 - **State Management**: Tracks current question, answers, and score
 - **Progress Tracking**: Visual progress bar and question counter
 - **Answer Validation**: Handles user selections and scoring
 - **Loading States**: Shows spinners during AI question generation
 
-#### `src/components/TopicSelection.tsx`
+#### `src/components/TopicSelection.jsx`
 - **Purpose**: Landing page with interactive topic cards
 - **Visual Design**: Gradient cards with hover animations
 - **Topic Management**: Handles topic selection and routing
 - **Responsive Layout**: Grid system adapting to screen sizes
 
-#### `src/components/Results.tsx`
+#### `src/components/Results.jsx`
 - **Purpose**: Displays quiz results and AI-generated feedback
 - **Performance Analysis**: Shows score, percentage, and visual indicators
 - **AI Feedback**: Requests and displays personalized insights
 - **Navigation**: Provides retry and topic selection options
 
-#### `src/types.ts`
+#### `src/types.js`
 - **Purpose**: TypeScript type definitions for type safety
 - **Interfaces**: Question, QuizState, QuizTopic types
 - **Data Validation**: Ensures consistent data structures
