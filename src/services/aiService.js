@@ -29,18 +29,18 @@ class AIService {
         { id: 5, question: "Which company is leading in quantum computing development?", options: ["IBM", "Google", "Microsoft", "All of the above"], correctAnswer: 3 }
       ],
       science: [
-        { id: 1, question: "What is the speed of light in a vacuum?", options: ["300,000 km/s", "299,792,458 m/s", "186,000 miles/hour", "300,000,000 m/s"], correctAnswer: 1 },
-        { id: 2, question: "Which element has the atomic number 1?", options: ["Helium", "Hydrogen", "Lithium", "Carbon"], correctAnswer: 2 },
+        { id: 1, question: "What is the speed of light in a vacuum?", options: ["300,000 km/s", "299,792,458 m/s", "186,000 miles/hour", "300,000,000 m/s"], correctAnswer: 0 },
+        { id: 2, question: "Which element has the atomic number 1?", options: ["Helium", "Hydrogen", "Lithium", "Carbon"], correctAnswer: 1 },
         { id: 3, question: "What is the largest planet in our solar system?", options: ["Saturn", "Neptune", "Jupiter", "Uranus"], correctAnswer: 2 },
-        { id: 4, question: "What is the process by which plants make their own food?", options: ["Respiration", "Photosynthesis", "Digestion", "Fermentation"], correctAnswer: 2 },
+        { id: 4, question: "What is the process by which plants make their own food?", options: ["Respiration", "Photosynthesis", "Digestion", "Fermentation"], correctAnswer: 1 },
         { id: 5, question: "Which scientist developed the theory of relativity?", options: ["Isaac Newton", "Albert Einstein", "Galileo Galilei", "Stephen Hawking"], correctAnswer: 1 }
       ],
       history: [
-        { id: 1, question: "In which year did World War II end?", options: ["1944", "1945", "1946", "1947"], correctAnswer: 2 },
-        { id: 2, question: "Who was the first person to walk on the moon?", options: ["Buzz Aldrin", "Neil Armstrong", "John Glenn", "Alan Shepard"], correctAnswer: 2 },
-        { id: 3, question: "Which ancient wonder of the world was located in Alexandria?", options: ["Hanging Gardens", "Colossus of Rhodes", "Lighthouse of Alexandria", "Temple of Artemis"], correctAnswer: 3 },
-        { id: 4, question: "The Renaissance period originated in which country?", options: ["France", "Germany", "Italy", "Spain"], correctAnswer: 2 },
-        { id: 5, question: "Who wrote the Declaration of Independence?", options: ["George Washington", "Benjamin Franklin", "Thomas Jefferson", "John Adams"], correctAnswer: 2 }
+        { id: 1, question: "In which year did World War II end?", options: ["1944", "1945", "1946", "1947"], correctAnswer: 1 },
+        { id: 2, question: "Who was the first person to walk on the moon?", options: ["Buzz Aldrin", "Neil Armstrong", "John Glenn", "Alan Shepard"], correctAnswer: 1 },
+        { id: 3, question: "Which ancient wonder of the world was located in Alexandria?", options: ["Hanging Gardens", "Colossus of Rhodes", "Lighthouse of Alexandria", "Temple of Artemis"], correctAnswer: 2 },
+        { id: 4, question: "The Renaissance period originated in which country?", options: ["France", "Germany", "Italy", "Spain"], correctAnswer: 1 },
+        { id: 5, question: "Who wrote the Declaration of Independence?", options: ["George Washington", "Benjamin Franklin", "Thomas Jefferson", "John Adams"], correctAnswer: 1 }
       ]
     };
 
