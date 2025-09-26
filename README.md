@@ -180,19 +180,19 @@ class AIService {
 ## 5. Screenshots
 
 ### Topic Selection Screen
-![Topic Selection]!(images/screenshot1.png)
+![Topic Selection](images/s1.png)
 *Interactive cards for Wellness, Technology, Science, and History topics*
 
 ### Quiz Interface
-![Quiz Interface](https://via.placeholder.com/800x600/059669/FFFFFF?text=Quiz+Interface)
+![Quiz Interface](images/s2.png)
 *Clean question display with progress tracking and multiple choice options*
 
 ### Results Screen
-![Results Screen](https://via.placeholder.com/800x600/DC2626/FFFFFF?text=Results+Screen)
+![Results Screen](images/s3.png)
 *Score display with AI-generated personalized feedback*
 
 ### Loading States
-![Loading State](https://via.placeholder.com/800x600/6B7280/FFFFFF?text=Loading+Spinner)
+![Loading State](images/s4.png)
 *Elegant loading animations during AI question generation*
 
 ## 6. Known Issues / Improvements
